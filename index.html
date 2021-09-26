@@ -20,9 +20,9 @@
 </head>
 
 <body id="body">
-    <header class="vh-100 position-re" id="header">
+    <header class="vh-100" id="header">
         <div class="mobile-menu">
-            <ul id="mobile-ul" class="vh-100 position-fixed top-0 d-block text-center list-unstyled bg-primary p-0 py-5">
+            <ul id="mobile-ul" class="vh-100 position-fixed text-center list-unstyled bg-primary px-0 py-5">
                 <li class="button-back m-0 d-none" id="close">
                     <i class="bi bi-x-circle bg-transparent border-0 text-white display-6"></i>
                 </li>
@@ -43,47 +43,51 @@
                 </li>
             </ul>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent w-100 end-0 p-2 p-lg-0 p-xl-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent w-100 p-2 p-lg-0">
             <div class="container">
-                <a class="navbar-brand m-0" href="#"><img src="images/title.png" alt="title" class="img-thumbnail bg-transparent border-0"></a>
-                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-white"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex wd-100 w-100 justify-content-end me-0">
-                        <li class="nav-item">
+                <a class="navbar-brand m-0" href="#">
+                    <img src="images/title.png" alt="title" class="img-thumbnail bg-transparent border-0">
+                </a>
+                <button class="navbar-toggler text-white" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex w-100 justify-content-end">
+                        <li class="nav-item my-0 mx-2">
                             <a class="nav-link text-white h5" href="#header">خانه</a>
                         </li>
-                        <li class="nav-item mt-0 mb-0 m-2">
+                        <li class="nav-item my-0 mx-2">
                             <a class="nav-link text-white h5" href="#about-me">درباره من</a>
                         </li>
-                        <li class="nav-item mt-0 mb-0 m-2">
+                        <li class="nav-item my-0 mx-2">
                             <a class="nav-link text-white h5" href="#my-services">خدمات</a>
                         </li>
-                        <li class="nav-item mt-0 mb-0 m-2">
+                        <li class="nav-item my-0 mx-2">
                             <a class="nav-link text-white h5" href="#my-works">نمونه کارها</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item my-0 mx-2">
                             <a class="nav-link text-white h5" href="#contact-me">تماس با من</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="header-desc d-flex text-center flex-column justify-content-around align-items-center position-relative" data-aos="fade-up">
+        <div class="header-desc d-flex flex-column justify-content-around align-items-center position-relative" data-aos="fade-up">
             <div>
-                <p class="text-white h3 m-0">سلام من</p>
+                <p class="text-white display-5 m-0">سلام من</p>
             </div>
             <div>
-                <h1 class="h1 text-white display-4 m-0"><a href="#" class="text-decoration-none my-name fw-bold ">امیرعلی فدیشه ای</a> هستم</h1>
+                <h1 class="text-white display-4 m-0">
+                    <a href="#" class="text-decoration-none fw-bold">امیرعلی فدیشه ای</a> هستم
+                </h1>
             </div>
-            <div class="h4 text-white m-0" id="app"></div>
+            <div class="display-6 text-white m-0" id="app"></div>
             <div>
                 <a href="#contact-me" class="text-decoration-none text-white own-btn">ارتباط با من</a>
                 <a href="https://jobinja.ir/user/EF-8568123" class="text-decoration-none text-white own-btn">دانلود رزومه</a>
             </div>
         </div>
-        <div class="to-top rounded bg-white position-fixed rounded-2 d-none justify-content-center align-items-center">
+        <div class="to-top bg-white position-fixed rounded-2 d-none justify-content-center align-items-center">
             <a href="#header"><i class="bi bi-arrow-up text-black fs-4"></i></a>
         </div>
     </header>
@@ -292,7 +296,7 @@
             </div>
         </section>
     </main>
-    <footer class="overflow-hidden">
+    <footer>
         <div class="container">
             <div class="footer-top col-12 mb-5" data-aos="fade-up">
                 <div class="early-access">
