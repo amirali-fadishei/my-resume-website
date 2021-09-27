@@ -148,6 +148,9 @@ header{
 .contact-me {
   padding: 60px 0;
 }
+.my-contact-ways{
+  justify-items: flex-start;
+}
 .my-contact-ways  li{
   margin: 30px;
 }
