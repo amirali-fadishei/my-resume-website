@@ -140,6 +140,10 @@ header{
 .my-works{
   padding: 60px 0;
 }
+.carousel-item img:hover{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
 /* contact-me */
 .contact-me {
   padding: 60px 0;
