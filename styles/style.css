@@ -167,6 +167,9 @@ footer{
   background-repeat: no-repeat;
   padding: 200px 10px 50px 10px;
 }
+.early-access{
+  justify-items: flex-start;
+}
 .early-access ul li{
   transition: all 0.3s ease-in-out;
   right: 0;
